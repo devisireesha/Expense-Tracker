@@ -1,0 +1,5 @@
+2025-01-13 14:39:13 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-13 14:44:08 INFO  DashboardServlet:67 - Income: 12000.0, Spent: 13700.0, Remaining: -1700.0
+2025-01-13 14:44:08 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-13 14:44:28 INFO  DashboardServlet:67 - Income: 12000.0, Spent: 13700.0, Remaining: -1700.0
+2025-01-13 14:44:28 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.

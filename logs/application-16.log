@@ -1,0 +1,6 @@
+2025-01-28 10:01:54 ERROR ExpenseServlet:358 - Database error occurred: Unexpected error during user ID fetch by email
+2025-01-28 10:02:21 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-01-28 10:02:21 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-01-28 10:02:26 INFO  ExpenseServlet:31 - Received POST request with action: delete
+2025-01-28 10:02:32 INFO  ExpenseServlet:87 - Received GET request with action: view
+2025-01-28 10:02:38 INFO  ExpenseServlet:87 - Received GET request with action: edit

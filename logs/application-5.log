@@ -1,0 +1,6 @@
+2025-01-13 14:44:35 INFO  DashboardServlet:67 - Income: 12000.0, Spent: 13700.0, Remaining: -1700.0
+2025-01-13 14:44:35 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-13 17:14:24 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 13:00:34 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 13:04:16 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 13:09:00 INFO  ExpenseServlet:81 - Received GET request with action: view

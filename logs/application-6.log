@@ -1,0 +1,7 @@
+2025-01-14 15:45:37 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 15:46:01 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 15:46:18 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-14 15:46:22 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-16 09:57:53 INFO  UserDAO:80 - User logged in: anusha@gmail.com
+2025-01-16 09:58:07 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-16 09:58:11 INFO  ExpenseServlet:81 - Received GET request with action: view

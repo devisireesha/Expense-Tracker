@@ -1,0 +1,6 @@
+2025-02-16 19:37:02 INFO  ExpenseServlet:99 - Received GET request with action: view
+2025-02-16 19:37:21 INFO  ExpenseServlet:99 - Received GET request with action: view
+2025-02-17 10:05:58 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-02-19 10:53:28 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-02-19 10:53:42 INFO  ExpenseServlet:99 - Received GET request with action: view
+2025-02-19 10:53:56 INFO  ExpenseServlet:37 - Received POST request with action: delete

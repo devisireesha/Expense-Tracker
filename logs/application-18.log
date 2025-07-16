@@ -1,0 +1,6 @@
+2025-01-28 10:10:16 INFO  ExpenseServlet:87 - Received GET request with action: view
+2025-01-28 10:12:43 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-01-28 10:15:24 INFO  ExpenseServlet:31 - Received POST request with action: add
+2025-01-28 10:15:24 INFO  ExpenseDAO:69 - PaymentID validation result: true for PaymentID: 3
+2025-01-28 10:15:24 INFO  ExpenseServlet:207 - Expense added successfully for userID: 6
+2025-01-28 10:15:32 INFO  DashboardServlet:66 - income0.0, spent34200.0, remaining-34200.0

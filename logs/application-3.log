@@ -1,0 +1,6 @@
+2025-01-13 14:32:09 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-13 14:32:09 INFO  ExpenseDAO:149 - Expense updated successfully for ExpenseID: 88
+2025-01-13 14:32:27 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-13 14:39:03 INFO  DashboardServlet:67 - Income: 12000.0, Spent: 13700.0, Remaining: -1700.0
+2025-01-13 14:39:03 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-13 14:39:13 INFO  DashboardServlet:67 - Income: 12000.0, Spent: 13700.0, Remaining: -1700.0

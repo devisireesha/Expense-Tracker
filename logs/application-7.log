@@ -1,0 +1,6 @@
+2025-01-16 09:58:13 INFO  ExpenseServlet:81 - Received GET request with action: edit
+2025-01-16 09:58:24 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-16 09:58:24 INFO  ExpenseDAO:148 - Expense updated successfully for ExpenseID: 86
+2025-01-16 09:59:07 INFO  ExpenseServlet:29 - Received POST request with action: add
+2025-01-16 09:59:07 INFO  ExpenseDAO:69 - PaymentID validation result: true for PaymentID: 7
+2025-01-16 09:59:07 INFO  ExpenseServlet:194 - Expense added successfully for userID: 6

@@ -1,0 +1,6 @@
+2025-01-20 08:40:23 INFO  ExpenseServlet:86 - Received GET request with action: view
+2025-01-20 08:40:25 INFO  ExpenseServlet:86 - Received GET request with action: edit
+2025-01-20 08:41:41 INFO  ExpenseServlet:86 - Received GET request with action: edit
+2025-01-20 08:41:44 INFO  ExpenseServlet:30 - Received POST request with action: edit
+2025-01-20 08:41:44 INFO  ExpenseDAO:148 - Expense updated successfully for ExpenseID: 81
+2025-01-20 08:42:44 INFO  ExpenseServlet:86 - Received GET request with action: view

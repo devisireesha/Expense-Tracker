@@ -1,0 +1,4 @@
+2025-01-28 10:00:22 INFO  ExpenseServlet:31 - Received POST request with action: delete
+2025-01-28 10:00:22 ERROR ExpenseServlet:352 - Invalid or missing expense ID.
+2025-01-28 10:01:53 INFO  ExpenseServlet:31 - Received POST request with action: delete
+2025-01-28 10:01:54 WARN  DBConnection:35 - exception in DBConnection.getConnection, message: Connection is broken: "java.net.SocketException: An established connection was aborted by the software in your host machine: 10.44.176.183:57330" [90067-224], code : 90067

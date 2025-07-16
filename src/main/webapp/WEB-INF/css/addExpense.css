@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+	color: #555;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	display: block;
+	color: #444;
+}
+
+input[type="text"], input[type="number"], input[type="date"], textarea,
+	select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-top: 5px;
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+	min-height: 100px;
+} 
+
+
+button {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #333;
+}
+
+select {
+	appearance: none;
+	background: #fff
+		url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0l2 2H0z"/></svg>')
+		no-repeat right 10px center;
+	background-size: 10px;
+}
+
+.error-message{
+	margin : 10px 0 20px 0;
+	padding : 10px;
+	color: #ff0000;
+	font-size: 14px;
+	font-weight : bold;
+	border : 1px solid #ff0000;
+	border-radius  : 5px;
+	background-color: #ffe6e6;
+	text-align : center;
+}

@@ -1,0 +1,913 @@
+2025-01-11 12:06:40 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 12:06:45 INFO  ExpenseServlet:24 - Received POST request with action: delete
+2025-01-11 12:08:05 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 12:08:14 INFO  ExpenseServlet:24 - Received POST request with action: delete
+2025-01-11 12:08:58 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 12:09:02 INFO  ExpenseServlet:24 - Received POST request with action: delete
+2025-01-11 12:41:48 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 12:55:32 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:01:09 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:10:41 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:10:56 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 13:10:56 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 71
+2025-01-11 13:10:56 INFO  ExpenseServlet:277 - Expense updated successfully for ID: 71
+2025-01-11 13:15:45 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:22:52 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:23:46 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 13:24:52 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:31:18 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:34:32 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:35:50 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:36:07 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 13:41:09 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:41:22 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 13:44:05 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 13:44:23 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 14:57:11 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 14:57:19 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 14:57:19 ERROR ExpenseServlet:303 - Error while editing expense
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:556) ~[?:?]
+	at com.expensetracker.servlets.ExpenseServlet.editExpense1(ExpenseServlet.java:247) [classes/:?]
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:36) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 14:57:24 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 14:57:24 ERROR ExpenseServlet:303 - Error while editing expense
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:556) ~[?:?]
+	at com.expensetracker.servlets.ExpenseServlet.editExpense1(ExpenseServlet.java:247) [classes/:?]
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:36) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 14:57:30 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 14:59:43 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 14:59:46 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 14:59:46 ERROR ExpenseServlet:303 - Error while editing expense
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:556) ~[?:?]
+	at com.expensetracker.servlets.ExpenseServlet.editExpense1(ExpenseServlet.java:247) [classes/:?]
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:36) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:00:50 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:00:53 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 15:00:53 ERROR ExpenseServlet:303 - Error while editing expense
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:556) ~[?:?]
+	at com.expensetracker.servlets.ExpenseServlet.editExpense1(ExpenseServlet.java:247) [classes/:?]
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:36) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:00:56 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 15:00:56 ERROR ExpenseServlet:303 - Error while editing expense
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[?:?]
+	at java.lang.Double.parseDouble(Double.java:556) ~[?:?]
+	at com.expensetracker.servlets.ExpenseServlet.editExpense1(ExpenseServlet.java:247) [classes/:?]
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:36) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:01:11 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:01:26 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 15:02:02 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:02:14 WARN  ExpenseServlet:88 - Expense ID is missing.
+2025-01-11 15:02:20 WARN  ExpenseServlet:88 - Expense ID is missing.
+2025-01-11 15:02:21 WARN  ExpenseServlet:88 - Expense ID is missing.
+2025-01-11 15:02:22 WARN  ExpenseServlet:88 - Expense ID is missing.
+2025-01-11 15:04:41 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:05:01 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 15:06:33 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:06:43 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 15:09:54 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:15:33 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:16:40 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:17:55 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:18:00 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:18:00 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:18:23 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:18:26 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:18:26 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:18:29 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:18:29 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:18:54 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:18:56 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:18:56 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:24:11 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:24:16 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:24:16 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:24:22 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:24:22 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:24:59 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 15:25:05 INFO  ExpenseServlet:29 - Received POST request with action: null
+2025-01-11 15:25:05 ERROR ExpenseServlet:47 - Unhandled exception occurred while processing action: null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "action" is null
+	at com.expensetracker.servlets.ExpenseServlet.doPost(ExpenseServlet.java:31) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2025-01-11 15:25:36 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:08:27 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:12:38 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:12:49 INFO  DashboardServlet:65 - Income: 9416.0, Spent: 567.0, Remaining: 8849.0
+2025-01-11 16:12:49 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 16:12:49 INFO  DashboardServlet:65 - Income: 9416.0, Spent: 567.0, Remaining: 8849.0
+2025-01-11 16:12:49 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 16:12:49 INFO  DashboardServlet:65 - Income: 9416.0, Spent: 567.0, Remaining: 8849.0
+2025-01-11 16:12:49 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 16:21:30 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:21:34 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:26:47 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:29:24 INFO  DashboardServlet:65 - Income: 9416.0, Spent: 567.0, Remaining: 8849.0
+2025-01-11 16:29:24 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 16:29:52 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:30:56 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:31:05 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:31:05 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 10
+2025-01-11 16:31:32 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:31:32 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 71
+2025-01-11 16:31:49 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:31:49 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 67
+2025-01-11 16:32:27 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:32:27 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 69
+2025-01-11 16:32:34 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:32:34 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 68
+2025-01-11 16:34:38 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:34:38 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 46
+2025-01-11 16:38:56 WARN  DBConnection:31 - exception in DBConnection.getConnection, message: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224], code : 90020
+2025-01-11 16:39:52 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:41:29 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:43:48 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:44:06 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:44:06 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 65
+2025-01-11 16:44:28 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:44:28 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 12
+2025-01-11 16:56:39 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 16:56:51 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 16:57:38 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:57:38 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 82
+2025-01-11 16:59:05 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 16:59:05 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 82
+2025-01-11 17:09:21 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 17:49:55 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 17:49:55 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 74
+2025-01-11 17:52:08 INFO  DashboardServlet:65 - Income: 78000.0, Spent: 85050.0, Remaining: -7050.0
+2025-01-11 17:52:08 INFO  DashboardServlet:65 - Income: 78000.0, Spent: 85050.0, Remaining: -7050.0
+2025-01-11 17:52:08 INFO  DashboardServlet:65 - Income: 78000.0, Spent: 85050.0, Remaining: -7050.0
+2025-01-11 17:52:08 INFO  DashboardServlet:65 - Income: 78000.0, Spent: 85050.0, Remaining: -7050.0
+2025-01-11 17:52:08 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 17:52:08 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 17:52:08 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 17:52:08 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 17:52:28 INFO  DashboardServlet:65 - Income: 78000.0, Spent: 85050.0, Remaining: -7050.0
+2025-01-11 17:52:28 INFO  DashboardServlet:112 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-11 17:59:42 WARN  ExpenseServlet:96 - Expense ID is missing.
+2025-01-11 18:02:58 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:03:22 INFO  UserDAO:100 - User logged in: devii@gmail.com
+2025-01-11 18:14:55 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:14:59 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:15:16 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:15:22 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:15:22 WARN  ExpenseServlet:70 - Expense ID is missing.
+2025-01-11 18:15:24 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:15:51 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:15:58 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:15:58 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 74
+2025-01-11 18:17:32 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:17:35 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:18:28 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:18:31 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:18:38 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:18:38 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 74
+2025-01-11 18:20:58 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:29:50 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:29:50 WARN  ExpenseServlet:70 - Expense ID is missing.
+2025-01-11 18:30:28 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:32:39 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:32:39 WARN  ExpenseServlet:70 - Expense ID is missing.
+2025-01-11 18:32:44 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:33:49 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:33:50 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:33:51 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:33:51 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:34:08 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:34:11 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:34:20 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:34:21 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:34:22 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:34:23 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:34:23 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:35:07 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:42:33 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:42:42 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 18:45:45 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:45:47 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:45:49 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:51 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:51 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:52 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:52 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:53 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:53 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:53 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:45:54 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:46:05 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:46:05 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 75
+2025-01-11 18:46:10 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:46:12 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:14 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:15 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:15 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:16 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:17 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:17 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:18 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:18 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:46:56 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 18:48:13 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:48:18 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 18:48:22 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:28 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:48:40 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:48:40 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 80
+2025-01-11 18:48:47 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:50 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:51 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:51 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:52 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:53 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:54 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:48:54 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:49:51 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:50:05 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:50:08 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:50:41 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:50:44 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:50:55 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:50:57 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:51:00 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:51:02 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:53:54 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:53:57 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:05 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:54:18 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:54:18 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 87
+2025-01-11 18:54:24 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:26 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:28 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:28 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:29 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:54:29 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:55:57 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:55:59 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:56:01 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:56:03 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:56:03 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:56:04 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 18:56:10 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 18:56:10 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 87
+2025-01-11 18:56:20 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 18:56:25 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:56:26 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:56:27 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:56:30 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:57:40 INFO  ExpenseServlet:80 - Received GET request with action: delete
+2025-01-11 18:57:40 ERROR ExpenseServlet:90 - Invalid action received: delete
+2025-01-11 18:58:21 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 18:58:26 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 18:59:11 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:59:12 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:59:12 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 18:59:59 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:00:01 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:04 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:05 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:06 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 19:00:11 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 19:00:11 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 82
+2025-01-11 19:00:15 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:36 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 19:00:43 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:45 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:46 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:46 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:00:47 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:01:00 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:19 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:01:21 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:01:23 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:24 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:24 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:25 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:26 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:26 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:27 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:28 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:29 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:01:29 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:32 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:03:34 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:03:36 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:37 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:38 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:39 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:39 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:03:40 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:30 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:04:33 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:04:36 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:36 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:37 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:38 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:38 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:38 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:04:39 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 19:04:49 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:06:19 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:06:19 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:06:26 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:06:30 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:06:32 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:06:33 INFO  ExpenseServlet:29 - Received POST request with action: view
+2025-01-11 19:08:45 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:08:49 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:08:51 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 19:08:58 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-11 19:08:58 INFO  ExpenseDAO:155 - Expense updated successfully for ExpenseID: 77
+2025-01-11 19:09:06 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 19:09:09 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:09:12 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 19:11:05 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:11:07 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-11 19:11:20 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:15:34 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:32:24 INFO  UserDAO:100 - User logged in: anusha@gmail.com
+2025-01-11 19:35:07 INFO  ExpenseServlet:80 - Received GET request with action: view
+2025-01-11 19:35:32 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-11 19:35:48 INFO  ExpenseServlet:80 - Received GET request with action: edit
+2025-01-12 10:20:04 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 10:22:25 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-12 10:22:42 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-12 10:22:43 INFO  ExpenseServlet:81 - Received GET request with action: edit
+2025-01-12 10:23:21 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-12 10:23:21 INFO  ExpenseDAO:162 - Expense updated successfully for ExpenseID: 80
+2025-01-12 10:23:25 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-12 10:57:49 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-12 10:58:17 WARN  CategoryDAO:31 - exception in CategoryDAO.deleteCategory, message: Syntax error in SQL statement "UPDATE UserCategories SET IsDefault = ? WHERE [*]FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ?"; expected "INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+UPDATE UserCategories SET IsDefault = ? WHERE FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ? [42001-224], code : 42001
+2025-01-12 11:02:36 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:04:50 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:10:01 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:11:37 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:34:46 WARN  DBConnection:31 - exception in DBConnection.getConnection, message: Connection is broken: "java.net.SocketException: An established connection was aborted by the software in your host machine: 192.168.0.123:61162" [90067-224], code : 90067
+2025-01-12 11:35:43 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:35:43 WARN  CategoryDAO:31 - exception in CategoryDAO.getCategoriesForUser, message: Column "IsDefault" not found [42122-224], code : 42122
+2025-01-12 11:35:43 ERROR LoginServlet:92 - Error occurred, Please try again
+java.lang.RuntimeException: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "IsDefault" not found [42122-224]
+	at com.expensetracker.util.DBConnection.handleSqlException(DBConnection.java:32) ~[classes/:?]
+	at com.expensetracker.dao.CategoryDAO.getCategoriesForUser(CategoryDAO.java:108) ~[classes/:?]
+	at com.expensetracker.servlets.LoginServlet.doPost(LoginServlet.java:50) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "IsDefault" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcResultSet.getBoolean(JdbcResultSet.java:598) ~[h2-2.2.224.jar:2.2.224]
+	at com.expensetracker.dao.CategoryDAO.getCategoriesForUser(CategoryDAO.java:100) ~[classes/:?]
+	... 25 more
+2025-01-12 11:37:29 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:37:42 WARN  CategoryDAO:31 - exception in CategoryDAO.deleteCategory, message: Syntax error in SQL statement "UPDATE UserCategories SET IsDefault = ? [*]FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ?"; SQL statement:
+UPDATE UserCategories SET IsDefault = ? FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ? [42000-224], code : 42000
+2025-01-12 11:54:35 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:57:15 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 11:58:35 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 12:07:45 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 13:07:06 WARN  DBConnection:31 - exception in DBConnection.getConnection, message: Connection is broken: "java.net.SocketException: An established connection was aborted by the software in your host machine: 192.168.0.123:62829" [90067-224], code : 90067
+2025-01-12 13:50:15 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 13:50:16 WARN  CategoryDAO:31 - exception in CategoryDAO.getCategoriesForUser, message: Values of types "BOOLEAN" and "INTEGER" are not comparable; SQL statement:
+SELECT C.CategoryName, C.CategoryID FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ? AND C.IsDefault= ? AND C.CategoryID != 1 && C.CategoryID != 11 [90110-224], code : 90110
+2025-01-12 13:50:16 ERROR LoginServlet:92 - Error occurred, Please try again
+java.lang.RuntimeException: org.h2.jdbc.JdbcSQLSyntaxErrorException: Values of types "BOOLEAN" and "INTEGER" are not comparable; SQL statement:
+SELECT C.CategoryName, C.CategoryID FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ? AND C.IsDefault= ? AND C.CategoryID != 1 && C.CategoryID != 11 [90110-224]
+	at com.expensetracker.util.DBConnection.handleSqlException(DBConnection.java:32) ~[classes/:?]
+	at com.expensetracker.dao.CategoryDAO.getCategoriesForUserToManage(CategoryDAO.java:133) ~[classes/:?]
+	at com.expensetracker.servlets.LoginServlet.doPost(LoginServlet.java:60) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Values of types "BOOLEAN" and "INTEGER" are not comparable; SQL statement:
+SELECT C.CategoryName, C.CategoryID FROM Categories C INNER JOIN UserCategories UC ON C.CategoryID = UC.CategoryID WHERE UC.UserID = ? AND C.IsDefault= ? AND C.CategoryID != 1 && C.CategoryID != 11 [90110-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.value.TypeInfo.checkComparable(TypeInfo.java:766) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:167) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:147) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:136) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:148) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1177) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.query.Query.prepare(Query.java:218) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.Parser.prepareCommand(Parser.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316) ~[h2-2.2.224.jar:2.2.224]
+	at com.expensetracker.dao.CategoryDAO.getCategoriesForUserToManage(CategoryDAO.java:118) ~[classes/:?]
+	... 25 more
+2025-01-12 13:51:48 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 13:53:03 INFO  DashboardServlet:67 - Income: 33000.0, Spent: 27700.0, Remaining: 5300.0
+2025-01-12 13:53:03 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-12 13:53:21 INFO  DashboardServlet:67 - Income: 33000.0, Spent: 27700.0, Remaining: 5300.0
+2025-01-12 13:53:21 INFO  DashboardServlet:114 - Expenses and additional attributes set. Forwarding to dashboard.jsp.
+2025-01-12 15:22:13 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 16:12:00 WARN  DBConnection:31 - exception in DBConnection.getConnection, message: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224], code : 90020
+2025-01-12 16:12:00 ERROR LoginServlet:92 - Error occurred, Please try again
+java.lang.RuntimeException: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at com.expensetracker.util.DBConnection.handleSqlException(DBConnection.java:32) ~[classes/:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:22) ~[classes/:?]
+	at com.expensetracker.dao.UserDAO.getUserIDByEmail(UserDAO.java:149) ~[classes/:?]
+	at com.expensetracker.servlets.LoginServlet.doPost(LoginServlet.java:32) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:212) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.<init>(Store.java:142) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Database.<init>(Database.java:326) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:92) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.2.224.jar:2.2.224]
+	at java.sql.DriverManager.getConnection(DriverManager.java:677) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:228) ~[java.sql:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:20) ~[classes/:?]
+	... 26 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/2735884/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.<init>(Store.java:133) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Database.<init>(Database.java:326) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:92) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.2.224.jar:2.2.224]
+	at java.sql.DriverManager.getConnection(DriverManager.java:677) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:228) ~[java.sql:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:20) ~[classes/:?]
+	... 26 more
+2025-01-12 16:12:33 INFO  UserDAO:83 - User logged in: anusha@gmail.com
+2025-01-12 18:38:13 WARN  DBConnection:28 - exception in DBConnection.getConnection, message: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224], code : 90020
+2025-01-12 18:38:13 ERROR LoginServlet:92 - Error occurred, Please try again
+java.lang.RuntimeException: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at com.expensetracker.util.DBConnection.handleSqlException(DBConnection.java:29) ~[classes/:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:19) ~[classes/:?]
+	at com.expensetracker.dao.UserDAO.getUserIDByEmail(UserDAO.java:144) ~[classes/:?]
+	at com.expensetracker.servlets.LoginServlet.doPost(LoginServlet.java:32) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.9]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [catalina.jar:8.5.9]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624) [catalina.jar:8.5.9]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.9]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [catalina.jar:8.5.9]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:8.5.9]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1437) [tomcat-coyote.jar:8.5.9]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.9]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.9]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: "C:/Users/2735884/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:212) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.<init>(Store.java:142) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Database.<init>(Database.java:326) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:92) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.2.224.jar:2.2.224]
+	at java.sql.DriverManager.getConnection(DriverManager.java:677) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:228) ~[java.sql:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:17) ~[classes/:?]
+	... 26 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/2735884/test.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.mvstore.db.Store.<init>(Store.java:133) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Database.<init>(Database.java:326) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:92) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.openSession(Engine.java:222) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.Engine.createSession(Engine.java:201) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.Driver.connect(Driver.java:59) ~[h2-2.2.224.jar:2.2.224]
+	at java.sql.DriverManager.getConnection(DriverManager.java:677) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:228) ~[java.sql:?]
+	at com.expensetracker.util.DBConnection.getConnection(DBConnection.java:17) ~[classes/:?]
+	... 26 more
+2025-01-12 18:38:33 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-12 18:38:39 INFO  ExpenseServlet:81 - Received GET request with action: view
+2025-01-12 18:38:41 INFO  ExpenseServlet:81 - Received GET request with action: edit
+2025-01-12 18:38:47 INFO  ExpenseServlet:29 - Received POST request with action: edit
+2025-01-12 18:38:47 INFO  ExpenseDAO:149 - Expense updated successfully for ExpenseID: 80
+2025-01-12 18:38:55 INFO  ExpenseServlet:29 - Received POST request with action: delete
+2025-01-12 18:40:09 INFO  ExpenseServlet:29 - Received POST request with action: add
+2025-01-12 18:40:09 INFO  ExpenseDAO:70 - PaymentID validation result: true for PaymentID: 3
+2025-01-12 18:40:09 INFO  ExpenseServlet:194 - Expense added successfully for userID: 6
+2025-01-12 18:43:14 INFO  UserDAO:78 - User logged in: anusha@gmail.com
+2025-01-12 18:47:07 WARN  DBConnection:28 - exception in DBConnection.getConnection, message: Connection is broken: "java.net.SocketException: An established connection was aborted by the software in your host machine: 192.168.0.123:58902" [90067-224], code : 90067
+2025-01-12 18:47:42 INFO  UserDAO:78 - User logged in: anusha@gmail.com

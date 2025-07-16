@@ -1,0 +1,6 @@
+2025-01-28 11:38:34 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-01-28 12:20:22 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-01-28 12:20:25 INFO  ExpenseServlet:99 - Received GET request with action: view
+2025-01-28 12:20:33 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-02-16 19:34:55 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
+2025-02-16 19:35:06 INFO  UserDAO:86 - User successfully logged in: anusha@gmail.com
